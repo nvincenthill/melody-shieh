@@ -45,41 +45,15 @@ class App extends React.Component {
   }
 
   render() {
-    const verbs = ["designing", "building", "deploying", "maintaining"];
-    const adjectives = [
-      "beautiful",
-      "reponsive",
-      "dynamic",
-      "mobile-first",
-      "amazing",
-      "modern",
-      "slick"
-    ];
-
-    // const verbClass = true ? "bounceIn animated" : "";
-
     return (
 
       <React.Fragment>
-        <GithubCorner
-          href="https://github.com/nvincenthill"
-          className="corner"
-          octoColor="#222831"
-          bannerColor="#EEEEEE"
-          size={135}
-        />
-        <Header title="Nicholas Vincent-Hill" icon="ios-contact" buttonsHidden="true" />
+        <Header title="Melody Shieh" icon="ios-contact" buttonsHidden="true" />
         <NavCard handleRoute={this.handleRoute} />
         <Fade>
           <div>
             <h2 className="about-tagline">
-              I'm a developer <br />{" "}
-              <span> {verbs[this.state.verb % verbs.length]} </span> <br />
-              <span>
-                {" "}
-                {adjectives[this.state.adjective % adjectives.length]}{" "}
-              </span>
-              web applications
+              I'm a consultant <br /> creating value for my clients
             </h2>
           </div>
         </Fade>
@@ -87,13 +61,7 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline-mobile">
-              I'm a developer <br />{" "}
-              <span> {verbs[this.state.verb % verbs.length]} </span> <br />
-              <span>
-                {" "}
-                {adjectives[this.state.adjective % adjectives.length]}{" "}
-              </span>
-              web applications
+              I'm a consultant <br /> creating value for my clients
             </h2>
           </div>
         </Fade>

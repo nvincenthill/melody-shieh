@@ -51,7 +51,7 @@ class NavCard extends React.Component {
               className="nav_button"
               onClick={() => this.props.handleRoute("Projects")}
             >
-              PROJECTS
+              PORTFOLIO
             </button>
           </Col>
           <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
