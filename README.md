@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a portfolio site to display my projects and provide my contact information and resume to potential clients and employers.
+This is a personal billboard site to for Melody Shieh to display her projects and provide contact information and resume to her potential clients and employers.
 
 ## Getting Started
 
