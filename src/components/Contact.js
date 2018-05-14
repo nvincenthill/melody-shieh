@@ -261,21 +261,6 @@ class Contact extends React.Component {
       </div>
     );
 
-    // const lgSize = 12;
-    // const mdSize = 6;
-    // const xsSize = 2;
-
-    const githubIcon = (
-      <Ionicon
-        icon="logo-github"
-        color={"#222831"}
-        fontSize={iconSize}
-        beat={false}
-        onClick={() => this.handleClick("Github")}
-        className="contact-icon"
-      />
-    );
-
     const linkedInIcon = (
       <Ionicon
         icon="logo-linkedin"
@@ -295,27 +280,6 @@ class Contact extends React.Component {
         fontSize={iconSize}
         beat={false}
         onClick={() => this.handleClick("Phone")}
-        className="contact-icon"
-      />
-    );
-
-    const skypeIcon = (
-      <Ionicon
-        icon="logo-skype"
-        color="#00AFF0"
-        fontSize={iconSize}
-        beat={false}
-        onClick={() => this.handleClick("Skype")}
-        className="contact-icon"
-      />
-    );
-    const chatIcon = (
-      <Ionicon
-        icon="ios-text"
-        color="#01E64E"
-        fontSize={iconSize}
-        beat={false}
-        onClick={() => this.handleClick("Text")}
         className="contact-icon"
       />
     );
@@ -364,7 +328,6 @@ class Contact extends React.Component {
           {/* Contact Buttons */}
 
           <div className="contact-container">
-            {githubIcon}
             {linkedInIcon}
             {mailIcon}
           </div>
@@ -401,11 +364,8 @@ class Contact extends React.Component {
           {/* Contact Buttons */}
 
           <div className="contact-container">
-            {githubIcon}
             {linkedInIcon}
             {callIcon}
-            {skypeIcon}
-            {chatIcon}
             {mailIcon}
           </div>
         </MediaQuery>
@@ -441,11 +401,8 @@ class Contact extends React.Component {
           {/* Contact Buttons */}
 
           <div className="contact-container">
-            {githubIcon}
             {linkedInIcon}
             {callIcon}
-            {skypeIcon}
-            {chatIcon}
             {mailIcon}
           </div>
         </MediaQuery>

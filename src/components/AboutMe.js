@@ -30,14 +30,11 @@ class AboutMe extends React.Component {
               <Fade cascade>
                 <div>
                   <p className="about-description">
-                    I started my career at a hedge fund as a trader - I've
-                    traded equities, options, commodities, credit,
-                    morgage-backed securities, and other derivatives.
+                    ABOUT ME TEXT HERE
                   </p>
                   <p className="about-description">
                     <span className="about-hook">
-                      {" "}
-                      ... but it wasn't my passion.{" "}
+                      HOOK HERE
                     </span>
                   </p>
                   <p className="about-description">
