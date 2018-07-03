@@ -35,22 +35,6 @@ class WorkSample extends React.Component {
             <h2 className="project_title"> {this.props.name} </h2>
           </a>
           <h3 className="project_description">{this.props.description}</h3>
-
-          <MediaQuery maxDeviceWidth={600}>
-
-          </MediaQuery>
-
-          {/* Tablets */}
-
-          <MediaQuery minDeviceWidth={601} maxDeviceWidth={808}>
-
-          </MediaQuery>
-
-          {/* Desktops */}
-
-          <MediaQuery minDeviceWidth={809}>
-
-          </MediaQuery>
         </div>
       </Fade>
     );

@@ -3,4 +3,258 @@
   h1 {
     font-size: 4vw;
   }
+
+  .title_container {
+    min-height: 15vh;
+    text-align: center;
+  }
+
+  .title_name {
+  }
+
+  .home-button {
+    font-size: 2vw;
+  }
+
+  .left-button {
+    font-size: 2vw;
+  }
+
+  .corner {
+    position: fixed;
+    display: inline;
+    top: 0vh;
+    right: 0vw;
+  }
+
+  .project-corner {
+    display: inline;
+    z-index: 10;
+  }
+
+  p {
+    font-size: 4rem;
+  }
+
+  .nav_container {
+    /*    justify-content: center;*/
+    text-align: center;
+    margin-top: 1vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2vh;
+    z-index: 5;
+  }
+
+  .nav_button {
+    color: var(--color4);
+    background: var(--color1);
+    border-width: 0;
+    font-size: 2.5rem;
+    padding: 0.5vh 0;
+    font-family: var(--fifth-font), sans-serif;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out;
+  }
+
+  .footer {
+    display: inline;
+  }
+
+  .carousel {
+    width: 60%;
+    height: 60%;
+  }
+
+  .project {
+    margin-bottom: 4vh;
+  }
+
+  .project_image {
+    width: 75%;
+    margin-top: -4vh;
+  }
+
+  .project_title {
+    margin-top: -6vh;
+  }
+
+  .project_description {
+    font-size: 1.5em;
+  }
+
+  .project_tech {
+    font-size: 1.5rem;
+  }
+
+  .project-array-container {
+  }
+
+  .about-headshot {
+    height: 40vh;
+    border-radius: 50%;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .about-headshot:hover ~ .about-blurb {
+    transition: 0.25s ease-in-out;
+    opacity: 1;
+  }
+
+  .about-headshot-container:hover .about-headshot {
+    transition: 0.5s ease-out;
+    transform: translateX(-20vw);
+    /*    -webkit-filter: contrast(125%);*/
+    opacity: 1;
+  }
+
+  .about-headshot-container:hover .about-blurb {
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+  }
+
+  .about-blurb {
+    display: block;
+    transition: 0.25s ease-in-out;
+    pointer-events: none;
+    background: var(--color1);
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    top: 57vh;
+    left: 36vw;
+    opacity: 0;
+    font-family: var(--second-font), sans-serif;
+    padding: 2vh;
+    text-align: left;
+  }
+
+  .about-description {
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    font-size: 2em;
+  }
+
+  .about-tagline-mobile {
+    display: none;
+  }
+
+  .about-tagline {
+    display: block;
+    font-size: 3em;
+    margin-bottom: 4vh;
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: var(--fifth-font), sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+    color: var(--color4);
+  }
+
+  .about-tagline-adjective {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 1vh;
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: var(--fifth-font), sans-serif;
+    font-weight: bold;
+    color: var(--color4);
+  }
+
+  .about-tagline-verb {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: var(--fifth-font), sans-serif;
+    font-weight: bold;
+    color: var(--color4);
+  }
+
+  .about-tagline-footer {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 4vh;
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: var(--fifth-font), sans-serif;
+    font-weight: bold;
+    color: var(--color4);
+  }
+
+  .contact-icon:hover {
+    transform: translateY(-10%) scale(1.05);
+  }
+
+  .contact-container {
+    /*text-align: left;*/
+    background: var(--color1);
+    margin-top: 0.5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  .contact-greeting-container {
+    position: absolute;
+    bottom: 40vh;
+    left: 4vw;
+    z-index: 15;
+    text-align: left;
+  }
+
+  .contact-greeting-heading {
+    font-size: 4em;
+    color: var(--color1);
+    opacity: 0.9;
+    margin-bottom: 2vh;
+  }
+
+  .contact-greeting-body {
+    font-size: 2em;
+    color: var(--color1);
+    opacity: 0.9;
+    line-height: 135%;
+  }
+
+  .contact-greeting-footer {
+    font-size: 4em;
+    color: var(--color1);
+    opacity: 0.9;
+    margin-top: 2vh;
+    /*    margin-right: 4vw;*/
+    text-align: center;
+  }
+
+  .contact-container {
+  }
+
+  #contact-well-input {
+    font-size: 1.5em;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+
+  .contact-icon-copy {
+    display: inline;
+    margin-bottom: 1vh;
+  }
+
+  .map-container {
+    /*display: block;*/
+  }
+
+  .map {
+    max-height: 50%;
+  }
 }
