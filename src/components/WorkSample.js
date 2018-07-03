@@ -5,7 +5,7 @@ import Ionicon from "react-ionicons";
 // import GithubCorner from "react-github-corner";
 import MediaQuery from "react-responsive";
 
-class ProjectItem extends React.Component {
+class WorkSample extends React.Component {
   state = {
     isHovered: false
   };
@@ -57,4 +57,4 @@ class ProjectItem extends React.Component {
   }
 }
 
-export default ProjectItem;
+export default WorkSample;
