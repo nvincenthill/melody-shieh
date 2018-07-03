@@ -18,7 +18,7 @@ html {
   --sixth-font: "Lobster";
   --color1: #eeeeee;
   --color2: #393e46;
-  --color3: #01AFF0;
+  --color3: #01aff0;
   --color4: #222831;
 }
 
@@ -33,20 +33,6 @@ body {
   background: var(--color1);
 }
 
-@media screen and (max-width: 1080px) and (min-width: 600px) {
-  /* TABLET *
-/  body {
-    background: var(--color1);
-  }
-}
-
-@media screen and (min-width: 1081px) {
-  /* DESKTOP */
-  body {
-    background: var(--color1);
-  }
-}
-
 h1 {
   color: var(--color1);
   opacity: 0.95;
@@ -55,20 +41,6 @@ h1 {
   font-weight: bold;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 1080px) and (min-width: 600px) {
-  /* TABLET */
-  h1 {
-    font-size: 5vw;
-  }
-}
-
-@media screen and (min-width: 1081px) {
-  /* DESKTOP */
-  h1 {
-    font-size: 4vw;
-  }
 }
 
 .title_name {
@@ -87,7 +59,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background: var(--color4);
-  /*  box-shadow: 0rem 0.5rem 0.5rem black;*/
   z-index: 2;
   padding: 1vh;
   margin-bottom: 0vh;
@@ -135,7 +106,6 @@ h1 {
   }
 
   .title_name {
-
   }
 
   .home-button {
@@ -353,7 +323,7 @@ h2 {
 }
 
 /*.carousel-indicators li {
-  border: 1px solid var(--color1); 
+  border: 1px solid var(--color1);
 }
 
 .carousel-indicators .active {
@@ -420,14 +390,14 @@ h2 {
   font-family: var(--main-font), sans-serif;
   margin-top: -1vh;
   color: var(--color4);
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .project_description {
   color: var(--color4);
   font-size: 1em;
   margin-top: 2vh;
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .project_tech {
@@ -452,7 +422,6 @@ h2 {
 @media screen and (max-width: 1080px) and (min-width: 600px) {
   /* TABLET */
   .project {
-
   }
 
   .project_image {
@@ -473,7 +442,6 @@ h2 {
   }
 
   .project-array-container {
-
   }
 }
 
@@ -501,7 +469,6 @@ h2 {
   }
 
   .project-array-container {
-
   }
 }
 
@@ -552,7 +519,7 @@ h2 {
 .about-contact-button {
   margin-right: auto;
   margin-left: auto;
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .about-contact-button:hover {
@@ -741,7 +708,7 @@ a:focus {
 }
 
 .contact-greeting-container {
-/*  position: relative;*/
+  /*  position: relative;*/
   display: inline;
   z-index: 15;
   text-align: center;
@@ -752,7 +719,7 @@ a:focus {
   margin-top: 4vh;
   font-size: 3em;
   color: var(--color4);
-  opacity: .9;
+  opacity: 0.9;
   margin-bottom: 2vh;
   /*text-shadow: 0rem 0.25rem 0.25rem black;*/
 }
@@ -761,7 +728,7 @@ a:focus {
   font-family: var(--third-font), sans-serif;
   font-size: 1.5em;
   color: var(--color4);
-  opacity: .9;
+  opacity: 0.9;
   line-height: 135%;
   /*text-shadow: 0rem 0.25rem 0.25rem black;*/
 }
@@ -770,7 +737,7 @@ a:focus {
   font-family: var(--sixth-font), sans-serif;
   font-size: 3em;
   color: var(--color4);
-  opacity: .9;
+  opacity: 0.9;
   margin-top: 2vh;
   margin-bottom: 4vh;
   margin-right: 0vw;
@@ -820,7 +787,7 @@ a:focus {
     margin-left: 15vw;
     margin-right: 15vw;
   }
-  
+
   .contact-greeting-container {
     position: absolute;
     bottom: 36vh;
@@ -833,27 +800,25 @@ a:focus {
   .contact-greeting-heading {
     font-size: 3em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     margin-bottom: 2vh;
   }
 
   .contact-greeting-body {
     font-size: 1em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     line-height: 135%;
-
   }
 
   .contact-greeting-footer {
     font-size: 2em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     margin-top: 2vh;
     margin-right: 0vw;
     text-align: right;
   }
-
 }
 
 @media screen and (min-width: 1081px) {
@@ -881,23 +846,23 @@ a:focus {
   .contact-greeting-heading {
     font-size: 4em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     margin-bottom: 2vh;
   }
 
   .contact-greeting-body {
     font-size: 2em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     line-height: 135%;
   }
 
   .contact-greeting-footer {
     font-size: 4em;
     color: var(--color1);
-    opacity: .9;
+    opacity: 0.9;
     margin-top: 2vh;
-/*    margin-right: 4vw;*/
+    /*    margin-right: 4vw;*/
     text-align: center;
   }
 }
@@ -927,9 +892,8 @@ a:focus {
 @media screen and (max-width: 1080px) and (min-width: 600px) {
   /* TABLET */
   .contact-container {
-
   }
-  
+
   #contact-well-input {
     margin-top: 2vh;
     margin-bottom: 1vh;
@@ -944,7 +908,6 @@ a:focus {
 @media screen and (min-width: 1081px) {
   /* DESKTOP */
   .contact-container {
-
   }
 
   #contact-well-input {
@@ -978,7 +941,6 @@ pre {
 @media screen and (max-width: 1080px) and (min-width: 600px) {
   /* TABLET */
   .map-container {
-
   }
 
   .map {
@@ -996,8 +958,6 @@ pre {
     max-height: 50%;
   }
 }
-
-
 
 .route-wrapper {
   position: relative;
@@ -1021,8 +981,6 @@ pre {
   padding-left: 0;
   padding-right: 0;
 }
-
-
 
 /*
 
@@ -1130,7 +1088,5 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .devicon path {
-/*  fill: #4691f6;*/
+  /*  fill: #4691f6;*/
 }
-
-

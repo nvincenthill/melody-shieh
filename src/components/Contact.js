@@ -299,113 +299,37 @@ class Contact extends React.Component {
 
         <Header title="Contact" icon="ios-contact" />
 
-        {/* Mobile Phones */}
+        {/* Greeting Message */}
+        <MapContainer
+          style={this.state.style}
+          mapType={this.state.mapType}
+          onClick={null}
+        />
+        <div className="contact-greeting-container">
+          <h2 className="contact-greeting-heading">Hello! </h2>
+          <p className="contact-greeting-body">
+            I'd love to talk to you! <br /> Please send me an email <br /> and
+            I'll get back to you <br /> as soon as possible.
+          </p>
+          <h2 className="contact-greeting-footer"> -Melody </h2>
+        </div>
 
-        <MediaQuery maxDeviceWidth={600} orientation="portrait">
-          {/* Greeting Message */}
-          <div className="contact-greeting-container">
-            <h2 className="contact-greeting-heading">Hello! </h2>
-            <p className="contact-greeting-body">
-              {" "}
-              I'd love to talk to you! <br /> Please send me an email <br /> and
-              I'll get back to you <br /> as soon as possible.
-            </p>
-            <h2 className="contact-greeting-footer"> -Melody </h2>
+        {/* Contact Information */}
+
+        <Collapse isOpened={!this.state.wellHidden}>
+          <div className="contact-well">
+            <input id="contact-well-input" value={this.state.wellText} />
+            {copyIcon}
           </div>
+        </Collapse>
 
-          {/* Contact Information */}
+        {/* Contact Buttons */}
 
-          <Collapse isOpened={!this.state.wellHidden}>
-            <div className="contact-well">
-              <input id="contact-well-input" value={this.state.wellText} />
-            </div>
-          </Collapse>
-
-          {/* Contact Buttons */}
-
-          <div className="contact-container">
-            {linkedInIcon}
-            {mailIcon}
-          </div>
-        </MediaQuery>
-
-        {/* Tablets */}
-
-        <MediaQuery minDeviceWidth={601} orientation="portrait">
-          {/* Greeting Message */}
-          <MapContainer
-            style={this.state.style}
-            mapType={this.state.mapType}
-            onClick={null}
-          />
-          <div className="contact-greeting-container">
-            <h2 className="contact-greeting-heading">Hello! </h2>
-            <p className="contact-greeting-body">
-              {" "}
-              I'd love to talk to you! <br /> Please send me an email <br /> and
-              I'll get back to you <br /> as soon as possible.
-            </p>
-            <h2 className="contact-greeting-footer"> -Melody </h2>
-          </div>
-
-          {/* Contact Information */}
-
-          <Collapse isOpened={!this.state.wellHidden}>
-            <div className="contact-well">
-              <input
-                onChange={null}
-                id="contact-well-input"
-                value={this.state.wellText}
-              />
-              {copyIcon}
-            </div>
-          </Collapse>
-
-          {/* Contact Buttons */}
-
-          <div className="contact-container">
-            {linkedInIcon}
-            {callIcon}
-            {mailIcon}
-          </div>
-        </MediaQuery>
-
-        {/* Desktops */}
-
-        <MediaQuery minDeviceWidth={809}>
-          {/* Greeting Message */}
-          <MapContainer
-            style={this.state.style}
-            mapType={this.state.mapType}
-            onClick={null}
-          />
-          <div className="contact-greeting-container">
-            <h2 className="contact-greeting-heading">Hello! </h2>
-            <p className="contact-greeting-body">
-              {" "}
-              I'd love to talk to you! <br /> Please send me an email <br /> and
-              I'll get back to you <br /> as soon as possible.
-            </p>
-            <h2 className="contact-greeting-footer"> -Melody </h2>
-          </div>
-
-          {/* Contact Information */}
-
-          <Collapse isOpened={!this.state.wellHidden}>
-            <div className="contact-well">
-              <input id="contact-well-input" value={this.state.wellText} />
-              {copyIcon}
-            </div>
-          </Collapse>
-
-          {/* Contact Buttons */}
-
-          <div className="contact-container">
-            {linkedInIcon}
-            {callIcon}
-            {mailIcon}
-          </div>
-        </MediaQuery>
+        <div className="contact-container">
+          {linkedInIcon}
+          {callIcon}
+          {mailIcon}
+        </div>
       </React.Fragment>
     );
   }
