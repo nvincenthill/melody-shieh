@@ -1,8 +1,6 @@
 import React from "react";
 // import RestartingTypist from "./RestartingTypist";
 import { Fade } from "react-reveal";
-import Typist from "react-typist";
-import Highlight from "react-highlight";
 
 class Blurb extends React.Component {
   state = {};
@@ -12,13 +10,6 @@ class Blurb extends React.Component {
   componentDidUpdate() {}
   componentWillUnmount() {}
   render() {
-    const cursor = {
-      show: false,
-      blink: true,
-      element: "|",
-      hideWhenDone: true,
-      hideWhenDoneDelay: 500
-    };
     return (
       <div>
         <Fade>

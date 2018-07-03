@@ -1,10 +1,6 @@
 import React from "react";
-// import { Fade } from "react-reveal";
 import Ionicon from "react-ionicons";
-// import HomeButton from "./HomeButton";
 import { Collapse } from "react-collapse";
-// import { Well } from "react-bootstrap";
-// import Footer from "./Footer";
 import Header from "./Header";
 import MapContainer from "./MapContainer";
 import MediaQuery from "react-responsive";
@@ -356,7 +352,11 @@ class Contact extends React.Component {
 
           <Collapse isOpened={!this.state.wellHidden}>
             <div className="contact-well">
-              <input onChange={null} id="contact-well-input" value={this.state.wellText} />
+              <input
+                onChange={null}
+                id="contact-well-input"
+                value={this.state.wellText}
+              />
               {copyIcon}
             </div>
           </Collapse>

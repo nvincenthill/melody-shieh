@@ -21,7 +21,6 @@ class Header extends React.Component {
           color="#222831"
           fontSize="2.5em"
           beat={false}
-          // onClick={() => this.handleRoute("/")}
           className="left-button"
         />
       </Fade>
@@ -34,7 +33,7 @@ class Header extends React.Component {
           <Fade>
             <h1 className="title-name">{this.props.title}</h1>
           </Fade>
-            {this.props.buttonsHidden ? leftButton : <HomeButton />}
+          {this.props.buttonsHidden ? leftButton : <HomeButton />}
         </div>
       </React.Fragment>
     );
