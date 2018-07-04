@@ -1,10 +1,5 @@
 /* Variable declaration */
 
-:root {
-}
-
-/* Border box declaration */
-
 html {
   @maintitle box-sizing: border-box;
   overflow-y: scroll;
@@ -22,6 +17,7 @@ html {
   --color4: #222831;
 }
 
+/* Border box declaration */
 /* inherit border-box on all elements in the universe and before and after */
 *,
 *:before,
