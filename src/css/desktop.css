@@ -32,10 +32,6 @@
     z-index: 10;
   }
 
-  p {
-    font-size: 4rem;
-  }
-
   .nav_container {
     /*    justify-content: center;*/
     text-align: center;
@@ -137,10 +133,16 @@
     margin-bottom: 4vh;
     margin-top: 4vh;
     font-size: 2vmin;
-
-    
   }
 
+  .about-description-text {
+    font-size: 2vmin;
+    grid-column-start: second;
+    grid-column-end: end;
+    grid-row-start: first;
+    grid-row-end: second;
+  }
+  
   .about-tagline-mobile {
     display: none;
   }

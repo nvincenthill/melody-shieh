@@ -271,7 +271,9 @@ h2 {
 .about-me {
   display: grid;  
   grid-template-columns: [first] 1fr [second] 1fr [end];
-  grid-template-rows: [first] 33vmin [second] 33vmin [third] 33vmin [end];
+  grid-template-rows: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto [end];
+  /* align-items: center; */
+  justify-content: center;
 }
 
 
@@ -313,10 +315,13 @@ h2 {
 
 .about-description {
   text-align: center;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  margin: 2vmin 2vmin;
+  padding: 2vmin 2vmin;
+
+  grid-column-start: second;
+  grid-column-end: end;
+  grid-row-start: first;
+  grid-row-end: second;
 }
 
 .about-contact-button {
@@ -340,19 +345,21 @@ h2 {
   font-weight: bold;
   font-family: var(--main-font), sans-serif;
   opacity: 1;
+}
 
-  grid-column-start: second;
-  grid-column-end: end;
-  grid-row-start: second;
-  grid-row-end: second;
+.about-me-headshot-container {
+  grid-column-start: first;
+  grid-column-end: first;
+  grid-row-start: first;
+  grid-row-end: first;
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .about-me-headshot {
-  grid-column-start: second;
-  grid-column-end: end;
-  grid-row-start: first;
-  grid-row-end: first;
-  width: 75%;
+  max-height: 50vmax;
 }
 
 .Typist .Cursor {
@@ -393,6 +400,14 @@ h2 {
 
 .about-tagline {
   display: none;
+}
+
+.about-description-text {
+  font-size: 2vmin;
+  grid-column-start: second;
+  grid-column-end: end;
+  grid-row-start: first;
+  grid-row-end: second;
 }
 
 a:hover {
