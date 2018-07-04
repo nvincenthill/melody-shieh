@@ -132,11 +132,13 @@
 
   .about-description {
     text-align: center;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
     margin-bottom: 4vh;
     margin-top: 4vh;
-    font-size: 2em;
+    font-size: 2vmin;
+
+    
   }
 
   .about-tagline-mobile {

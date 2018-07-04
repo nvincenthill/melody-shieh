@@ -23,15 +23,20 @@ class AboutMe extends React.Component {
     return (
       <React.Fragment>
         <Header title="About Me" icon="md-person" />
-
-        <Row>
-          <Col xs={12} sm={12} md={12} lg={12}>
-            <div>
+            <div className="about-me">
               <Fade cascade>
-                <div>
+                <div className="about-description">
                   <p className="about-description">
-                    ABOUT ME TEXT HERE
+                  Melody Shieh is a Consultant at Alvarez & Marsal in San Francisco. 
+                  She has experience supporting clients with organizational transformation and specializes in business analytics.
+                  <br />
+                  Most recently at A&M, Melody assisted a leading national healthcare provider complete an objective discovery assessment for their outpatient care scheduling function and provided recommendations for a future, consolidated contact center location. 
+                  Her analysis consisted of building a staffing and variable cost model and synthesizing stakeholder feedback into deliverables that equipped the client to make strategic decisions.
+                  <br />
+                  Melody also assisted the client with the development of an incentive compensation plan for their one thousand contact center agents by identifying key performance metrics that would drive desired behaviors and produce the right customer experience.
+                  Previously, Melody assisted a $60B national healthcare provider.
                   </p>
+                </div>
                   <p className="about-description">
                     <span className="about-hook">
                       HOOK HERE
@@ -47,18 +52,20 @@ class AboutMe extends React.Component {
                         color="#222831"
                         fontSize="5em"
                         beat={false}
-                        // onClick={() => this.handleRoute("/")}
                         className="about-contact-button"
                       />
 
                       <p className="about-contact"> Hire me! </p>
+
+                                  <img
+              className="about-me-headshot"
+              alt="did not load"
+              src="../images/aboutmephoto.jpg"
+            />
                     </Link>
                   </div>
-                </div>
               </Fade>
             </div>
-          </Col>
-        </Row>
       </React.Fragment>
     );
   }
