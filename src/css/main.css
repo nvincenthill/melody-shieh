@@ -8,7 +8,7 @@ html {
   --main-font: "Arimo";
   --second-font: "Montserrat";
   --third-font: "Fjalla One";
-  --fourth-font: 'Open Sans', sans-serif;
+  --fourth-font: "Open Sans", sans-serif;
   --fifth-font: "Roboto+Condensed";
   --sixth-font: "Lobster";
   --color1: #eeeeee;
@@ -269,13 +269,12 @@ h2 {
 }
 
 .about-me {
-  display: grid;  
-  grid-template-columns: [first] 1fr [second] 1fr [end];
+  display: grid;
+  grid-template-columns: [first] 1fr [end];
   grid-template-rows: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto [end];
   /* align-items: center; */
   justify-content: center;
 }
-
 
 .about-headshot-container {
   text-align: center;
@@ -315,10 +314,10 @@ h2 {
 
 .about-description {
   text-align: center;
-  margin: 2vmin 2vmin;
+  margin: 4vmin 4vmin;
   padding: 2vmin 2vmin;
 
-  grid-column-start: second;
+  grid-column-start: first;
   grid-column-end: end;
   grid-row-start: first;
   grid-row-end: second;
@@ -350,16 +349,16 @@ h2 {
 .about-me-headshot-container {
   grid-column-start: first;
   grid-column-end: first;
-  grid-row-start: first;
-  grid-row-end: first;
-  
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  grid-row-start: second;
+  grid-row-end: end;
+  padding: 2vmin 4vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me-headshot {
-  max-height: 50vmax;
+  max-height: 35vmax;
 }
 
 .Typist .Cursor {

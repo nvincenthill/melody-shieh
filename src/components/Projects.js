@@ -21,14 +21,13 @@ class Projects extends React.Component {
   render() {
     return (
       <React.Fragment>
-      <Header title="Work Samples" icon="ios-folder" />
+        <Header title="Work Samples" icon="ios-folder" />
 
-
-            <div className="project-array-container">
-              <Fade>
-                <WorkSample />
-              </Fade>
-            </div>
+        <div className="project-array-container">
+          <Fade>
+            <WorkSample />
+          </Fade>
+        </div>
       </React.Fragment>
     );
   }

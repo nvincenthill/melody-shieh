@@ -9,9 +9,6 @@
     text-align: center;
   }
 
-  .title_name {
-  }
-
   .home-button {
     font-size: 2vw;
   }
@@ -128,11 +125,13 @@
 
   .about-description {
     text-align: center;
-    margin-left: 2vmin;
-    margin-right: 2vmin;
-    margin-bottom: 4vh;
-    margin-top: 4vh;
-    font-size: 2vmin;
+    margin: 4vmin 4vmin;
+    padding: 2vmin 2vmin;
+
+    grid-column-start: second;
+    grid-column-end: end;
+    grid-row-start: first;
+    grid-row-end: second;
   }
 
   .about-description-text {
@@ -142,9 +141,28 @@
     grid-row-start: first;
     grid-row-end: second;
   }
-  
+
   .about-tagline-mobile {
     display: none;
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: [first] 1fr [second] 1fr [end];
+    grid-template-rows: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto [end];
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .about-me-headshot-container {
+    grid-column-start: first;
+    grid-column-end: first;
+    grid-row-start: first;
+    grid-row-end: first;
+    padding: 2vmin 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-tagline {
