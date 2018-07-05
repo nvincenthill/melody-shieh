@@ -234,17 +234,16 @@ h2 {
 }
 
 .project_title {
-  font-size: 2em;
+  font-size: 4vmin;
   font-weight: bold;
   font-family: var(--main-font), sans-serif;
-  margin-top: -1vh;
   color: var(--color4);
   opacity: 0.95;
 }
 
 .project_description {
   color: var(--color4);
-  font-size: 1em;
+  font-size: 2vmin;
   margin-top: 2vh;
   opacity: 0.95;
 }
@@ -314,13 +313,13 @@ h2 {
 
 .about-description {
   text-align: center;
-  margin: 4vmin 4vmin;
-  padding: 2vmin 2vmin;
+  margin: 0vmin 4vmin 4vmin 4vmin;
+  padding: 0vmin 2vmin 2vmin 2vmin;
 
   grid-column-start: first;
   grid-column-end: end;
-  grid-row-start: first;
-  grid-row-end: second;
+  grid-row-start: second;
+  grid-row-end: end;
 }
 
 .about-contact-button {
@@ -349,9 +348,9 @@ h2 {
 .about-me-headshot-container {
   grid-column-start: first;
   grid-column-end: first;
-  grid-row-start: second;
-  grid-row-end: end;
-  padding: 2vmin 4vmin;
+  grid-row-start: first;
+  grid-row-end: second;
+  padding: 8vmin 8vmin;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -389,8 +388,8 @@ h2 {
 
 .about-tagline-mobile {
   text-align: center;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-bottom: 2vh;
   font-family: var(--fifth-font), sans-serif;
   font-size: 1.5em;
@@ -403,11 +402,8 @@ h2 {
 }
 
 .about-description-text {
-  font-size: 2vmin;
-  grid-column-start: second;
-  grid-column-end: end;
-  grid-row-start: first;
-  grid-row-end: second;
+  font-size: 4vmin;
+  margin: 0vmin 4vmin 4vmin 4vmin;
 }
 
 a:hover {

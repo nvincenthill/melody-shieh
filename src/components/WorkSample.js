@@ -16,23 +16,23 @@ class WorkSample extends React.Component {
     });
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
-  componentDidUpdate() {}
+  componentDidUpdate() { }
 
-  componentWillUnmount() {}
+  componentWillUnmount() { }
 
   render() {
     return (
       <Fade>
         <div className="project">
-          <a href={this.props.url}>
+          <a href={"/images/" + this.props.pdf}>
             <img
               className="project_image"
-              src={this.props.imageSource}
+              src={"../images/" + this.props.image}
               alt="Did not load"
             />
-            <h2 className="project_title"> {this.props.name} </h2>
+            <h2 className="project_title"> {this.props.title} </h2>
           </a>
           <h3 className="project_description">{this.props.description}</h3>
         </div>

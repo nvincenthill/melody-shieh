@@ -17,11 +17,11 @@ class App extends React.Component {
     this.props.history.push(`/${route}/`);
   };
 
-  componentDidMount() {}
+  componentDidMount() { }
 
-  componentDidUpdate() {}
+  componentDidUpdate() { }
 
-  componentWillUnmount() {}
+  componentWillUnmount() { }
 
   render() {
     return (
@@ -31,7 +31,7 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline">
-              I'm a consultant <br /> creating value for my clients
+              I'm a consultant who specializes in business analytics and corporate performance improvement
             </h2>
           </div>
         </Fade>
@@ -39,7 +39,7 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline-mobile">
-              I'm a consultant <br /> creating value for my clients
+              I'm a consultant who specializes in business analytics and corporate performance improvement
             </h2>
           </div>
         </Fade>
