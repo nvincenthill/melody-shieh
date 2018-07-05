@@ -165,6 +165,10 @@
     justify-content: center;
   }
 
+  .about-me-headshot {
+    max-height: 35vmax;
+  }
+
   .about-tagline {
     display: block;
     font-size: 3em;
@@ -233,6 +237,7 @@
     left: 4vw;
     z-index: 15;
     text-align: left;
+    background: none;
   }
 
   .contact-greeting-heading {
@@ -273,7 +278,7 @@
   }
 
   .map-container {
-    /*display: block;*/
+    display: inline-block;
   }
 
   .map {

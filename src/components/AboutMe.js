@@ -11,13 +11,13 @@ import Footer from "./Footer";
 
 class AboutMe extends React.Component {
   state = {};
-  changeColor = () => {};
+  changeColor = () => { };
 
-  componentDidMount() {}
+  componentDidMount() { }
 
-  componentDidUpdate() {}
+  componentDidUpdate() { }
 
-  componentWillUnmount() {}
+  componentWillUnmount() { }
 
   render() {
     return (
@@ -68,7 +68,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </React.Fragment>
     );
   }

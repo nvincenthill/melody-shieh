@@ -359,6 +359,7 @@ h2 {
 
 .about-me-headshot {
   max-height: 35vmax;
+  border-radius: 10%;
 }
 
 .Typist .Cursor {
@@ -417,10 +418,6 @@ a:focus {
   text-decoration: none;
 }
 
-.contact-body {
-  /*text-align: center;*/
-}
-
 .contact-container {
   text-align: center;
   margin-top: 2vh;
@@ -428,33 +425,27 @@ a:focus {
 }
 
 .contact-greeting-container {
-  /*  position: relative;*/
   display: inline;
-  z-index: 15;
   text-align: center;
+  z-index: 100;
 }
 
 .contact-greeting-heading {
-  font-family: var(--sixth-font), sans-serif;
   margin-top: 4vh;
   font-size: 3em;
   color: var(--color4);
   opacity: 0.9;
   margin-bottom: 2vh;
-  /*text-shadow: 0rem 0.25rem 0.25rem black;*/
 }
 
 .contact-greeting-body {
-  font-family: var(--third-font), sans-serif;
   font-size: 1.5em;
   color: var(--color4);
   opacity: 0.9;
   line-height: 135%;
-  /*text-shadow: 0rem 0.25rem 0.25rem black;*/
 }
 
 .contact-greeting-footer {
-  font-family: var(--sixth-font), sans-serif;
   font-size: 3em;
   color: var(--color4);
   opacity: 0.9;
@@ -462,7 +453,6 @@ a:focus {
   margin-bottom: 4vh;
   margin-right: 0vw;
   text-align: center;
-  /*text-shadow: 0rem 0.25rem 0.25rem black;*/
 }
 
 .contact-icon {
@@ -526,10 +516,7 @@ pre {
 
 .map-container {
   pointer-events: none;
-}
-
-.map {
-  /*display: none;*/
+  display: none;
 }
 
 .route-wrapper {
@@ -653,13 +640,4 @@ a[href^="https://maps.google.com/maps"] {
 }
 .gmnoprint div {
   background: none !important;
-}
-
-.devicon {
-  max-width: 2em;
-  margin: 2vh 1vw;
-}
-
-.devicon path {
-  /*  fill: #4691f6;*/
 }

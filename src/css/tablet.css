@@ -81,33 +81,30 @@
     left: 5vw;
     z-index: 15;
     text-align: left;
-    background: #013990;
   }
 
   .contact-greeting-heading {
     font-size: 3em;
-    color: var(--color1);
+    color: var(--color2);
     opacity: 0.9;
     margin-bottom: 2vh;
+    background: none;
   }
 
   .contact-greeting-body {
     font-size: 1em;
-    color: var(--color1);
+    color: var(--color2);
     opacity: 0.9;
     line-height: 135%;
   }
 
   .contact-greeting-footer {
     font-size: 2em;
-    color: var(--color1);
+    color: var(--color2);
     opacity: 0.9;
     margin-top: 2vh;
     margin-right: 0vw;
     text-align: right;
-  }
-
-  .contact-container {
   }
 
   #contact-well-input {
@@ -121,6 +118,7 @@
   }
 
   .map-container {
+    display: inline-block;
   }
 
   .map {
