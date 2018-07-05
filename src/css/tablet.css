@@ -52,7 +52,14 @@
     font-size: 1.5rem;
   }
 
-  .project-array-container {
+  .project_description {
+    margin: 3vmin 10vmin;
+  }
+
+  .project_image {
+    width: 50%;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
   }
 
   .contact-icon:hover {

@@ -1,9 +1,5 @@
 import React from "react";
 import { Fade } from "react-reveal";
-// import { Grid, Row, Col } from "react-flexbox-grid";
-import Ionicon from "react-ionicons";
-// import GithubCorner from "react-github-corner";
-import MediaQuery from "react-responsive";
 
 class WorkSample extends React.Component {
   state = {
@@ -16,11 +12,11 @@ class WorkSample extends React.Component {
     });
   }
 
-  componentDidMount() { }
+  componentDidMount() {}
 
-  componentDidUpdate() { }
+  componentDidUpdate() {}
 
-  componentWillUnmount() { }
+  componentWillUnmount() {}
 
   render() {
     return (

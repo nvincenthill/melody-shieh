@@ -64,12 +64,17 @@
   }
 
   .project_image {
-    width: 75%;
-    margin-top: -4vh;
+    width: 50%;
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
   }
 
   .project_tech {
     font-size: 1.5rem;
+  }
+
+  .project_description {
+    margin: 4vmin 10vmin;
   }
 
   .project-array-container {
@@ -151,14 +156,14 @@
     grid-column-end: first;
     grid-row-start: first;
     grid-row-end: first;
-    padding: 2vmin 4vmin;
+    padding: 4vmin 4vmin;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .about-me-headshot {
-    max-height: 35vmax;
+    max-height: 50vmax;
   }
 
   .about-tagline {
