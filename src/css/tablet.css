@@ -123,4 +123,9 @@
   .map {
     max-height: 50%;
   }
+
+  .recomendation-container-mobile {
+    text-align: center;
+    margin: 2rem 4rem;
+  }
 }

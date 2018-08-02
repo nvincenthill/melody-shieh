@@ -427,6 +427,7 @@ a:focus {
 }
 
 .contact-greeting-heading {
+  font-family: var(--sixth-font);
   margin-top: 4vh;
   font-size: 3em;
   color: var(--color4);
@@ -442,6 +443,7 @@ a:focus {
 }
 
 .contact-greeting-footer {
+  font-family: var(--sixth-font);
   font-size: 3em;
   color: var(--color4);
   opacity: 0.9;
@@ -636,4 +638,20 @@ a[href^="https://maps.google.com/maps"] {
 }
 .gmnoprint div {
   background: none !important;
+}
+
+.recomendation-container-mobile {
+  text-align: center;
+  margin: 2rem 2rem;
+}
+
+.about-blurb-text-footer-mobile {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.about-blurb-text-mobile {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 2vh;
 }

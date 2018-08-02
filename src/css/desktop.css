@@ -32,7 +32,7 @@
   .nav_container {
     /*    justify-content: center;*/
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 2vh;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2vh;
@@ -205,7 +205,7 @@
 
   .contact-greeting-container {
     position: absolute;
-    bottom: 40vh;
+    bottom: 30vh;
     left: 4vw;
     z-index: 15;
     text-align: left;
@@ -255,5 +255,9 @@
 
   .map {
     max-height: 50%;
+  }
+
+  .recomendation-container-mobile {
+    display: none;
   }
 }

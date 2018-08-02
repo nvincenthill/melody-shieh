@@ -36,40 +36,41 @@ class NavCard extends React.Component {
   render() {
     return (
       <Fade cascade>
-      <div>
-        <Row around="xs" className={this.state.hidden ? "nav_container" : "nav_container"}>
-          <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
-            <button
-              className="nav_button"
-              onClick={() => this.props.handleRoute("AboutMe")}
-            >
-              ABOUT
-            </button>
-          </Col>
-          <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
-            <button
-              className="nav_button"
-              onClick={() => this.props.handleRoute("Projects")}
-            >
-              WORK
-            </button>
-          </Col>
-          <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
-            <a href="/images/Melody Shieh's Resume 7.03.2018.pdf"><button
-              className="nav_button">
-              RESUME
-            </button>
-            </a>
-          </Col>
-          <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
-            <button
-              className="nav_button"
-              onClick={() => this.props.handleRoute("Contact")}
-            >
-              CONTACT
-            </button>
-          </Col>
-        </Row>
+        <div>
+          <Row
+            around="xs"
+            className={this.state.hidden ? "nav_container" : "nav_container"}
+          >
+            <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
+              <button
+                className="nav_button"
+                onClick={() => this.props.handleRoute("AboutMe")}
+              >
+                ABOUT
+              </button>
+            </Col>
+            <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
+              <button
+                className="nav_button"
+                onClick={() => this.props.handleRoute("Projects")}
+              >
+                WORK
+              </button>
+            </Col>
+            <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
+              <a href="/images/Melody Shieh's Resume 7.31.2018.pdf">
+                <button className="nav_button">RESUME</button>
+              </a>
+            </Col>
+            <Col className="nav-column" xs={5} sm={3} md={3} lg={3}>
+              <button
+                className="nav_button"
+                onClick={() => this.props.handleRoute("Contact")}
+              >
+                CONTACT
+              </button>
+            </Col>
+          </Row>
         </div>
       </Fade>
     );

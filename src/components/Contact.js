@@ -3,7 +3,7 @@ import Ionicon from "react-ionicons";
 import { Collapse } from "react-collapse";
 import Header from "./Header";
 import MapContainer from "./MapContainer";
-import MediaQuery from "react-responsive";
+import NavCard from "./NavCard";
 
 class Contact extends React.Component {
   state = {
@@ -206,7 +206,9 @@ class Contact extends React.Component {
 
   handleClick(target) {
     if (target === "LinkedIn") {
-      window.location.assign("https://www.linkedin.com/in/melody-shieh-66456b67/");
+      window.location.assign(
+        "https://www.linkedin.com/in/melody-shieh-66456b67/"
+      );
     }
 
     if (target === "Github") {
@@ -234,11 +236,15 @@ class Contact extends React.Component {
     }
   }
 
-  componentDidMount() { }
+  handleRoute = route => {
+    this.props.history.push(`/${route}/`);
+  };
 
-  componentDidUpdate() { }
+  componentDidMount() {}
 
-  componentWillUnmount() { }
+  componentDidUpdate() {}
+
+  componentWillUnmount() {}
 
   render() {
     const iconSize = "4em";
@@ -298,7 +304,7 @@ class Contact extends React.Component {
         {/* Header Message */}
 
         <Header title="Contact" icon="ios-contact" />
-
+        <NavCard handleRoute={this.handleRoute} />
         {/* Greeting Message */}
         <MapContainer
           style={this.state.style}

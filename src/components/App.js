@@ -17,11 +17,11 @@ class App extends React.Component {
     this.props.history.push(`/${route}/`);
   };
 
-  componentDidMount() { }
+  componentDidMount() {}
 
-  componentDidUpdate() { }
+  componentDidUpdate() {}
 
-  componentWillUnmount() { }
+  componentWillUnmount() {}
 
   render() {
     return (
@@ -31,7 +31,8 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline">
-              I'm a consultant who specializes in business analytics and corporate performance improvement
+              I'm a consultant who specializes in business analytics and
+              corporate performance improvement
             </h2>
           </div>
         </Fade>
@@ -39,8 +40,26 @@ class App extends React.Component {
         <Fade>
           <div>
             <h2 className="about-tagline-mobile">
-              I'm a consultant who specializes in business analytics and corporate performance improvement
+              I'm a consultant who specializes in business analytics and
+              corporate performance improvement
             </h2>
+          </div>
+        </Fade>
+        <Fade>
+          <div className="recomendation-container-mobile">
+            <p className="about-blurb-text-mobile">
+              "Melody was always inquisitive, gave great recommendations, and
+              exhibited wisdom way beyond her years. I would hire her again in a
+              nanosecond!"
+              <br /> <br />
+              <a
+                href="https://www.linkedin.com/in/melody-shieh-66456b67/detail/recommendation/write/"
+                target="_blank"
+                className="about-blurb-text-mobile"
+              >
+                Vincent K., Dang Foods CEO
+              </a>
+            </p>
           </div>
         </Fade>
         <Footer />
