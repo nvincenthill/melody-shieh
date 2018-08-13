@@ -205,7 +205,7 @@
 
   .contact-greeting-container {
     position: absolute;
-    bottom: 30vh;
+    bottom: 25%;
     left: 4vw;
     z-index: 15;
     text-align: left;

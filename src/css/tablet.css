@@ -76,7 +76,7 @@
 
   .contact-greeting-container {
     position: absolute;
-    bottom: 36vh;
+    bottom: 30%;
     left: 5vw;
     z-index: 15;
     text-align: left;
@@ -84,7 +84,7 @@
 
   .contact-greeting-heading {
     font-size: 3em;
-    color: var(--color2);
+    color: var(--color1);
     opacity: 0.9;
     margin-bottom: 2vh;
     background: none;
@@ -92,14 +92,14 @@
 
   .contact-greeting-body {
     font-size: 1em;
-    color: var(--color2);
+    color: var(--color1);
     opacity: 0.9;
     line-height: 135%;
   }
 
   .contact-greeting-footer {
     font-size: 2em;
-    color: var(--color2);
+    color: var(--color1);
     opacity: 0.9;
     margin-top: 2vh;
     margin-right: 0vw;
