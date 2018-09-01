@@ -18,34 +18,18 @@ Clone the repo, move to directory and perform the standard install:
 npm install
 ```
 
-To run locally: 
+To run locally:
 
 ```
 npm start || npm run watch
 ```
 
-(```npm run watch```) recompiles styling and animations)
+(`npm run watch`) recompiles styling and animations)
 
 ## Running the tests
 
 TODO: Add unit tests.
 
-<!-- ### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
- -->
 ## Deployment
 
 To deploy:
@@ -56,8 +40,8 @@ npm build
 
 ## Built With
 
-* [React](https://reactjs.org/) - The JS framework used
-* [React-Bootstrap](https://reactjs.org/) - The front-end styling framework
+- [React](https://reactjs.org/) - The JS framework used
+- [React-Bootstrap](https://reactjs.org/) - The front-end styling framework
 
 ## Contributing
 
@@ -69,7 +53,7 @@ I use [Git](https://git-scm.com/) for versioning.
 
 ## Authors
 
-* **Nicholas Vincent-Hill** - [nvincenthill](https://github.com/nvincenthill)
+- **Nicholas Vincent-Hill** - [nvincenthill](https://github.com/nvincenthill)
 
 ## License
 
@@ -79,4 +63,4 @@ I make a concerted effort to use only unlicensed content - If I have included yo
 
 ## Acknowledgments
 
-* Wes Bos's React tutorials helped me learn the React framework and produce this content.
+- Wes Bos's React tutorials helped me learn the React framework and produce this content.
