@@ -28,7 +28,11 @@ npm start || npm run watch
 
 ## Running the tests
 
-TODO: Add unit tests.
+To test:
+
+```
+npm test
+```
 
 ## Deployment
 
