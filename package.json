@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "concurrently": "3.5.1",
-    "react-scripts": "^1.1.1"
+    "concurrently": "3.5.1"
   },
   "dependencies": {
+    "react-scripts": "^1.1.1",
     "autoprefixer-stylus": "0.14.0",
     "babel-polyfill": "^6.26.0",
     "eslint": "^4.19.1",
