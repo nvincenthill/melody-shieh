@@ -33,22 +33,25 @@ class AboutMe extends React.Component {
           </div>
           <div className="about-description">
             <p className="about-description-text">
-              Melody Shieh is a Consultant at Alvarez & Marsal in San Francisco,
-              California. She specializes in business analytics and has
-              supported clients with organizational transformation, corporate
-              strategy, and operational improvement.
+              Melody is a master of execution and has a proven track record of
+              providing strategic and actionable insights that help companies
+              grow, scale, and deliver. She specializes in business analytics
+              and synthesizes data-driven findings into recommendations for
+              senior executives to drive positive impact and achieve sustainable
+              results.
             </p>
             <p className="about-description-text">
-            Recently at A&M, Melody supported a $60B national healthcare provider and insurer with an IT transformation from an old-world infrastructure delivery process to an outsourced “as-a-service” model. She identified a net savings opportunity of $472.1M (~35%) by determining cost drivers and duplication between capital, vendor, and staffing spend within the client's service delivery model. The results refined the client’s view of their core services and streamlined their service delivery approach across the customer value chain.
+              As a Consultant at Alvarez & Marsal, she advised clients through
+              corporate strategy on customer experience, organizational
+              leadership, incentive compensation strategy, process improvement,
+              and corporate transformation.
             </p>
             <p className="about-description-text">
-              Previously, Melody conducted an objective discovery assessment for
-              a leading national healthcare provider's outpatient scheduling
-              function and delivered recommendations for a future, consolidated
-              contact center location. Melody also developed an incentive
-              compensation plan for the client's ~1,000 contact center agents by
-              identifying key performance metrics that would drive desired
-              behaviors and produce the best customer experience.
+              With a passion for collaboration, focus on data-driven
+              objectivity, and aptitude for problem-solving, she loves the
+              challenge of applying structure to the chaos of business growth
+              and is always looking for new opportunities to learn, develop and
+              most importantly, contribute.
             </p>
             <p className="about-description-text">
               Melody earned a B.S. in Business Administration from the
@@ -58,7 +61,8 @@ class AboutMe extends React.Component {
               <a href="https://mealpanda.herokuapp.com/" target="_blank">
                 {" "}
                 here
-              </a>).
+              </a>
+              ).
             </p>
             <div className="about-contact">
               <Link to="/Contact/">
