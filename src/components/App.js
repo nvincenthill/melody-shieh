@@ -55,6 +55,7 @@ class App extends React.Component {
               <a
                 href="https://www.linkedin.com/in/melody-shieh-66456b67/detail/recommendation/write/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="about-blurb-text-mobile"
               >
                 Vincent K., Dang Foods CEO

@@ -58,7 +58,11 @@ class AboutMe extends React.Component {
               University of California, Berkeley and currently resides in the
               Rockridge district of Oakland, California where she enjoys urban
               gardening and cooking with her boyfriend (recipes can be found{" "}
-              <a href="https://mealpanda.herokuapp.com/" target="_blank">
+              <a
+                href="https://mealpanda.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 here
               </a>
